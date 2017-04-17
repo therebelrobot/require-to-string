@@ -1,0 +1,34 @@
+{
+  "name": "@therebel/require2string",
+  "version": "0.0.0",
+  "description": "A small node sideloader that allows you to require text files (.graphql, .txt, ...) as a string",
+  "main": "require2string.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/therebelrobot/require-to-string.git"
+  },
+  "keywords": [
+    "require",
+    "string",
+    "text",
+    "file",
+    "fs",
+    "loader",
+    "side",
+    "sideloader",
+    "graphql",
+    "graph",
+    "ql",
+    "textfiles",
+    "txt"
+  ],
+  "author": "Ozzy Haven <npm@therebelrobot.com> (@therebelrobot)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/therebelrobot/require-to-string/issues"
+  },
+  "homepage": "https://github.com/therebelrobot/require-to-string#readme"
+}
