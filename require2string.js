@@ -1,4 +1,6 @@
-module.exports = (extension, encoding = 'utf8') => {
+const fs = require('fs')
+
+module.exports = function (extension, encoding = 'utf8') {
   if (extension.constructor === 'Array') {
     for (extIndex in extension) {
       require.extensions[extension[extIndex]] = function (m, filename) {
