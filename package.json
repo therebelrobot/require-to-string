@@ -1,6 +1,6 @@
 {
   "name": "@therebel/require2string",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A small node sideloader that allows you to require text files (.graphql, .txt, ...) as a string",
   "main": "require2string.js",
   "scripts": {
